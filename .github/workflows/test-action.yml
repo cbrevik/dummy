@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: cbrevik/test-action@v3
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}`
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
