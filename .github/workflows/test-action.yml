@@ -1,10 +1,10 @@
 name: "LETS DO THIS"
-on: [
+on: 
     pull_request: 
         types: [opened, synchronize], 
+on:
     check_run:
         types: [requested_action]
-    ]
     
 jobs:
   hello:
