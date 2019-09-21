@@ -1,7 +1,17 @@
-name: "LETS DO THIS"
+name: "Check formatting"
 on: 
   pull_request: 
     types: [opened, synchronize]
+    
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: cbrevik/test-action@v4
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        
+name: "Fix formatting"
 on:
   check_run:
     types: [requested_action]
@@ -13,3 +23,4 @@ jobs:
     - uses: cbrevik/test-action@v4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
+
