@@ -1,5 +1,5 @@
 name: "LETS DO THIS"
-on: [pull_request, check_run]
+on: [pull_request, check_run, check_suite]
     
 jobs:
   hello:
