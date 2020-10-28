@@ -9,3 +9,5 @@ be fun
 dsa
 
 wat probot why did you compile it on macos
+
+cb@variant.no
